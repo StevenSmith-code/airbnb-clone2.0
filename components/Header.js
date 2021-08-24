@@ -1,11 +1,15 @@
 import React from 'react'
 import Image from 'next/image'
+import { Parallax } from 'react-parallax';
 import { SearchIcon, GlobeAltIcon, MenuIcon, UserCircleIcon, UsersIcon } from '@heroicons/react/solid'
 function Header() {
+
+
     return (
         <header className='sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md p-5 md:px-10'>
             <div className='relative flex items-center h-10 cursor-pointer my-auto'>
                 <Image 
+                    className= "image-head"
                     src='https://links.papareact.com/qd3'
                     layout='fill'
                     objectFit='contain'

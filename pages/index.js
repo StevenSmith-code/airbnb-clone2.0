@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { ParallaxProvider } from 'react-scroll-parallax'
 import Banner from '../components/Banner'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
@@ -13,8 +14,9 @@ export default function Home({exploreData, cardsData}) {
         <title>Airbnb Clone</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+    <ParallaxProvider>
       <Header />
+    </ParallaxProvider>
       <Banner />
 
       <main className="max-w-7xl mx-auto px-8 sm:px-16">
