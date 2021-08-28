@@ -22,7 +22,7 @@ function Banner() {
                     objectFit="cover"
                     />    */}
             <div className="absolute top-1/2 w-full text-center text-white lg:text-black">
-                <p className="text-md left-[32%] sm:text-lg lg:text-2xl absolute left-[41%] bottom-[180px] text-gray-700 xl:left-[42.5%]">Not sure where to go? Perfect.</p>
+                <p className="text-md left-[32%] sm:text-lg lg:text-2xl absolute left-[41%] bottom-[180px] text-gray-700 xl:left-[40%]">Not sure where to go? Perfect.</p>
 
                 <button className="lg: text-purple-500 bg-white px-10 py-4 shadow-md rounded-full font-bold my-5 hover:shadow-xl active:scale-90 transition duration-150">I'm flexible</button>
             </div>   
